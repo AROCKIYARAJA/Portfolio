@@ -16,7 +16,7 @@ function App() {
   return (
     <div className=" w-[100%] h-screen overflow-y-scroll bg-gray-900" >
       <Helmet>
-        <link rel="icon" type="image/png" href={<FaCode />} className=' rounded-full' />
+        <link rel="icon" type="image/png" href={ME} className=' rounded-full' />
         <title>I'm Arockiya Raja — Full Stack Web Developer</title>
       </Helmet>
 
