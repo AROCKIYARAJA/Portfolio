@@ -25,7 +25,7 @@ function InfinityScroll() {
         <>
             <div className="mt-20 w-[1000px] mx-auto max-w-full px-10" id='skills'>
                 <div className="text-[3rem] text-white font-[700]">Skills</div>
-                <div className="">Well Known Technologies are</div>
+                <div className="text-gray-400">Well Known Technologies are</div>
             </div>
             <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
                 <div className="flex items-center gap-1 scroll-right-to-left">
