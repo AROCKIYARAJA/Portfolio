@@ -1,0 +1,6 @@
+.project:hover .project-card{
+    border: 2px solid rgb(0, 170, 255);
+}
+.project:hover .project-info{
+    color: rgb(0, 170, 255);
+}
