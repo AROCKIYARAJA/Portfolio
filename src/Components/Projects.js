@@ -31,7 +31,7 @@ function Projects() {
                     <img src={SkillSafari} alt="" className='w-[350px] h-[190px] rounded-xl object-cover hover:border-2 hover:border-sky-600 project-card' />
                     <img src={skillsafari} alt="" className='w-[80px] rounded-full mx-auto mt-5' />
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 text-center">Skill Safari an Education Website</div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         Building a Learn and Earn Community | At Skill Safari, we are bridging the gap between knowledge and individuals.
                     </div>
                 </Link>
@@ -42,7 +42,7 @@ function Projects() {
                         <span className='px-1 py-[1px] text-red-600 font-[600] bg-white rounded-md'>Tube</span>
                     </div>
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">FilmTube Entertainment App</div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         Movies, Tv Series, Entertainment Recomandation App, Users can enjoy their favorite Genres Entertainment
                     </div>
                 </Link>
@@ -50,7 +50,7 @@ function Projects() {
                     <img src={NetFlix} alt="" className='w-[350px] h-[190px] rounded-xl hover:border-2 hover:border-sky-600 project-card' />
                     <img src={netflix} alt="" className='w-[80px] rounded-full mx-auto mt-5' />
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">NetFlix Stranger thing</div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         A world Famous OTT platform Clone Page of Stranger thing Landing page with Complete Responsive
                     </div>
                 </Link>
@@ -58,7 +58,7 @@ function Projects() {
                     <img src={Google} alt="" className='w-[350px] h-[190px] rounded-xl hover:border-2 hover:border-sky-600 project-card' />
                     <img src={google} alt="" className='w-[80px] rounded-full mx-auto mt-5' />
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">Google Dark Edition </div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         A New Dark Edition UI of Google Search Engine Page Without Responsiveness, A New UI Implementation Practice Purpose.
                     </div>
                 </Link>
@@ -66,7 +66,7 @@ function Projects() {
                     <img src={Envato} alt="" className='w-[350px] h-[190px] rounded-xl hover:border-2 hover:border-sky-600 project-card' />
                     <img src={envato} alt="" className='w-[120px] rounded-full mx-auto mt-5' />
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">Envato Market</div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         A Car Rental Website Users Can Easly Select their Dream Cars for Rent with Budget Friendly. New More Features Added, Enjoy the Drive
                     </div>
                 </Link>
@@ -74,7 +74,7 @@ function Projects() {
                     <img src={Ecoyaan} alt="" className='w-[350px] h-[190px] rounded-xl hover:border-2 hover:border-sky-600 project-card' />
                     <div className="w-fit px-3 py-1 rounded-full bg-emerald-600 text-white mt-5 mx-auto">Ecoyaan</div>
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-3 whitespace-nowrap text-ellipsis text-center">Ecoyaan</div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         A Real Work Website Cloning Process with New Kind of UI Approach, Successfully Completed with Full Responsiveness.
                     </div>
                 </Link>
@@ -85,7 +85,7 @@ function Projects() {
                         <span className='text-black text-[1.2rem]'>Planets</span>
                     </div>
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">Solar System</div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         A Demo Model of Solar System, Implemented with Html, Css, Only. No Images Designed with only CSS.
                     </div>
                 </Link>
@@ -93,7 +93,7 @@ function Projects() {
                     <img src={SkillLine} alt="" className='w-[350px] h-[190px] rounded-xl hover:border-2 hover:border-sky-600 project-card' />
                     <img src={skillline} alt="" className='w-[68px] rounded-full mx-auto mt-5' />
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">Skill Line </div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         A Fictional Cloning Website Of Skill Line, an Education Based Theme with Complete Responsiveness.
                     </div>
                 </Link>
@@ -101,7 +101,7 @@ function Projects() {
                     <img src={Dynamic} alt="" className='w-[350px] h-[190px] rounded-xl hover:border-2 hover:border-sky-600 project-card' />
                     <img src={apple} alt="" className='w-[80px] rounded-full mx-auto mt-5' />
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">Iphone Dynamic Island</div>
-                    <div className="text-[14px] px-2 project-info">
+                    <div className="text-[14px] px-2 project-info text-gray-400">
                         Iphone 14 Pro Max Dynamic Island creativity by Using Html, Css, JavaScript. This is a complete Mobile Handling Demo, Practice Purpose
                     </div>
                 </Link>
