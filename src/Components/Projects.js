@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SkillSafari from '../Images/SkillSafari.png';
 import FilmTube from "../Images/FilmTube.png"
 import NetFlix from "../Images/Netflix.png";
@@ -22,11 +22,13 @@ import "./Extra.css"
 
 function Projects() {
 
+    const [showProjects, setShowProjects] = useState(false);
+
     return (
         <div className='mt-20' id='projects'>
             <div className="text-center font-[700] text-white text-[4rem]">Projects</div>
             <div className="text-center text-gray-200 tracking-wider px-4 w-fit mx-auto py-2 rounded-full bg-gray-500 flex items-center justify-center gap-1"><GrAchievement className='text-[1.5rem]' />Achievement </div>
-            <div className="w-[1200px] mx-auto max-w-full mt-10 flex items-center justify-center flex-wrap gap-10 ">
+            <div className={`w-[1200px] ${showProjects ? "h-fit" : "h-[500px] overflow-y-hidden"} bg-gradient-to-t from-black via-transparent to-transparent rounded-2xl py-10 mx-auto max-w-full mt-10 flex items-center justify-center flex-wrap gap-10 Projects-box `}>
                 <Link to={'https://skill-safari-page.vercel.app/'} target='_blank' className=" p-3 md:hover:translate-y-[-20px] duration-300 transition-all rounded-2xl bg-gray-800 w-[350px] hover:bg-gray-950 shadow-3xl project  ">
                     <img src={SkillSafari} alt="" className='w-[350px] h-[190px] rounded-xl object-cover hover:border-2 hover:border-sky-600 project-card' />
                     <img src={skillsafari} alt="" className='w-[80px] rounded-full mx-auto mt-5' />
@@ -105,6 +107,9 @@ function Projects() {
                         Iphone 14 Pro Max Dynamic Island creativity by Using Html, Css, JavaScript. This is a complete Mobile Handling Demo, Practice Purpose
                     </div>
                 </Link>
+            </div>
+            <div className={`text-center ${showProjects ? "translate-y-[0px] mt-5" : "bg-gradient-to-t from-black via-[#00000084] to-transparent py-10 translate-y-[-98px]"} w-[1200px] mx-auto max-w-full rounded-xl `}>
+                <button className='text-gray-300 px-3 py-1 rounded-full bg-red-600' onClick={() => setShowProjects(!showProjects)}>{showProjects ? "Show Off":"See All Project"}</button>
             </div>
         </div>
     )
