@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { FaCode } from "react-icons/fa6";
-import RESUME from "../PDF/Resume.pdf";
+import RESUME from "../PDF/Resume.docx";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import { MdOutlineFileDownloadDone } from "react-icons/md";
 
